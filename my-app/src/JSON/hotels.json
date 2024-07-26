@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "TAJ LAKE PALACE",
+        "address": "Pichola, Udaipur, Rajasthan 313001, India",
+        "insta": "@tajlakepalace",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Lake-Palace-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Lake-Palace-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Lake-Palace-3.jpg"
+        ],
+        "description": "Imagine staying in a majestic abode right in the middle of a lake surrounded by breathtaking views of hills and elaborate palaces. Sounds magical right? Well, that’s just one of the many splendid experiences that the Taj Lake Palace has to offer its guests. This 18th century historical palace, situated in the magnificent City of Udaipur, is undeniably one of the best hotels in India. This white marble marvel is a stunning example of royal grandeur with 65 luxurious rooms and 18 grand suites.",
+        "star": 5,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.396960165479!2d73.67993340000001!3d24.575492999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967efecf87f0b8b%3A0x2708953a0e177443!2sTaj%20Lake%20Palace%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1710973062227!5m2!1sen!2sin",
+        "price": "19,000",
+        "city": "Udaipur"
+    },
+    {
+        "id": 2,
+        "name": "THE OBEROI UDAIVILAS",
+        "address": " Badi-Gorela-Mulla Talai Rd, Haridas Ji Ki Magri, Pichola, Udaipur, Rajasthan 313001, India",
+        "insta": "@theoberoiudaivilas",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Udaivilas-3.jpg"
+        ],
+        "description": "A sparkling jewel in the charming city of lakes, Oberoi Udaivilas offers guests a top-notch experience. The Oberoi group is known for its outstanding hospitality with its core philosophy being “the guest is everything”. Every single room of this luxurious hotel reflects elegance and is designed to bestow the utmost comfort. The glittering views of the City Palace and Jag mandir from this lakeside hotel is an absolute treat to the eyes.",
+        "star": 3,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.0749075520816!2d73.6736321008026!3d24.578853530082903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccf804ea9e2f3%3A0x21eb806bf9fc7e9a!2sThe%20Oberoi%20Udaivilas%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1710972991831!5m2!1sen!2sin",
+        "price": "16,000",
+        "city": "Udaipur"
+    },
+    {
+        "id": 3,
+        "name": "THE LEELA PALACE UDAIPUR",
+        "address": " Lake, Pichola, Udaipur, Rajasthan 313001, India",
+        "insta": "@theleelapalaceudaipur",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-3.jpg"
+        ],
+        "description": "The Venice of the east, Udaipur not only has some of the best hotels in India but the world. The Leela Palace Udaipur has been ranked as the world’s best hotel by Travel+Leisure, USA readers survey 2019.  Located by Lake Pichola, each of the 80 luxurious rooms offer panoramic views of mountains and tranquil lakes.",
+        "star": 2,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.0749075520816!2d73.6736321008026!3d24.578853530082903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ccf804ea9e2f3%3A0x21eb806bf9fc7e9a!2sThe%20Oberoi%20Udaivilas%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1710972991831!5m2!1sen!2sin",
+        "price": "20,000",
+        "city": "Udaipur"
+    },
+    {
+        "id": 4,
+        "name": "TAJ ARAVALI RESORT & SPA",
+        "address": "1, Kheemach Kheda, Village: Bhujra, Tehsil: Girwa Near Kodiyat, Forest Chowki, Udaipur, Rajasthan 313031, India",
+        "insta": "@tajaravali",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Aravali-Resort-Spa.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Aravali-Resort-Spa-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Taj-Aravali-Resort-Spa-3.jpg"
+        ],
+        "description": "A luxury haven in the princely state of Mewar, Taj Aravali is unequivocally a destination unto itself. It’s surrounded by the serene Aravali ranges and is located near to the beautiful Fateh Sagar Lake. The contemporary design of the resort is a masterpiece of Rajasthani Architecture with furnishings inspired by Mewar’s equestrian heritage. ",
+        "star": 4,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.2881291748768!2d73.61146149999999!3d24.579250599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967fa894614443b%3A0xc553712b1f5e6708!2sTaj%20Aravali%20Resort%20%26%20Spa%2C%20Udaipur!5e0!3m2!1sen!2sin!4v1710973228053!5m2!1sen!2sin",
+        "price": "21,000",
+        "city": "Udaipur"
+    },
+    {
+        "id": 5,
+        "name": "RAMBAGH PALACE",
+        "address": "Bhawani Singh Rd, Rambagh, Jaipur, Rajasthan 302005, India",
+        "insta": "@rambaghpalace",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Rambagh-Palace-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Rambagh-Palace-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Rambagh-Palace-3.jpg"
+        ],
+        "description": "The Pink city of India, Jaipur has an array of architectural wonders that mirrors India’s glorious heritage. The Rambagh palace built-in 1835 is one such marvel that was the residence of former Maharaja of Jaipur. The Taj group has impressively restored it to a luxurious hotel while keeping its essence of royalty intact.",
+        "star": 5,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.1698131846665!2d75.8081498!3d26.898105299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db41f78970ac5%3A0xe9eef625b7f871c!2sRambagh%20Palace%20-%20Jaipur!5e0!3m2!1sen!2sin!4v1710973282922!5m2!1sen!2sin",
+        "price": "16,000",
+        "city": "Jaipur"
+    },
+    {
+        "id": 6,
+        "name": "OBEROI RAJVILAS",
+        "address": "Babaji Ka Modh, Goner Rd, Jaipur, Rajasthan 302031, India",
+        "insta": "@theoberoirajvilas",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Rajvilas-Jaipur-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Rajvilas-Jaipur-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Oberoi-Rajvilas-Jaipur-3.jpg"
+        ],
+        "description": "The Pink city of India, Jaipur has an array of architectural wonders that mirrors India’s glorious heritage. The Rambagh palace built-in 1835 is one such marvel that was the residence of former Maharaja of Jaipur. The Taj group has impressively restored it to a luxurious hotel while keeping its essence of royalty intact.",
+        "star": 4,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.8678271467784!2d75.8837593!3d26.875940099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db79c682e1fbf%3A0x9e3e2a13bd6ee38d!2sThe%20Oberoi%20Rajvilas%2C%20Jaipur!5e0!3m2!1sen!2sin!4v1710973667205!5m2!1sen!2sin",
+        "price": "20,000",
+        "city": "Jaipur"
+    },
+    {
+        "id": 7,
+        "name": "JW MARRIOTT JAIPUR RESORT & SPA",
+        "address": "Jaipur-Delhi, NH11, Kukas, Rajasthan 302028, India",
+        "insta": " @jwmarriottjaipur",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/JW-Marriott-Resort-Spa-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/JW-Marriott-Resort-Spa-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/JW-Marriott-Resort-Spa-3.jpg"
+        ],
+        "description": "JW Marriott Jaipur Resort and Spa is a 5-star luxury resort located in the historically significant city of Rajasthan. The resort has been accoladed with the Trip Advisor’s Certificate of Excellence and all the credit to its impeccable service. With 8 categories of accommodation to choose from, it guarantees an excellent stay in Jaipur.",
+        "star": 3,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.4315788652266!2d75.90270799999999!3d27.048122000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396da56101d0a551%3A0xb47a759d1930ac1f!2sJW%20Marriott%20Jaipur%20Resort%20%26%20Spa!5e0!3m2!1sen!2sin!4v1710973751593!5m2!1sen!2sin",
+        "price": "11,000",
+        "city": "Jaipur"
+    },
+    {
+        "id": 8,
+        "name": "THE TAJ MAHAL PALACE",
+        "address": " Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India",
+        "insta": "@thetajmahalmumbai",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Taj-Mahal-Palace-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Taj-Mahal-Palace-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Taj-Mahal-Palace-3.jpg"
+        ],
+        "description": "The legendary Taj Mahal Palace situated in Mumbai is acclaimed as India’s first luxurious hotel. This flagship hotel of the Taj group lets you witness a fascinating blend of old-world charm and modern facilities. This architectural wonder also offers spectacular views of the Arabian sea and the Gateway of India. The meticulously planned luxurious rooms with lavish artistic interiors make it one of the best hotels in India.",
+        "star": 5,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.219791539583!2d72.8332028!3d18.921663100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c06fffffff%3A0xc0290485a4d73f57!2sThe%20Taj%20Mahal%20Palace%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1710973804987!5m2!1sen!2sin",
+        "price": "10,000",
+        "city": "Mumbai"
+    },
+    {
+        "id": 9,
+        "name": "THE ST. REGIS MUMBAI",
+        "address": "462, Senapati Bapat Marg, Lower Parel, Mumbai, Maharashtra 400013, India",
+        "insta": "@stregismumbai",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-St.-Regis-Mumbai-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-St.-Regis-Mumbai-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-St.-Regis-Mumbai-3.jpg"
+        ],
+        "description": "Located in the premier commercial and entertainment hub of Mumbai, St Regis is a luxurious 5-star hotel by the Marriott group. It is situated in Mumbai’s tallest building in Lower Parel and overlooks the Arabian sea. The 395 guest rooms including the ultra-luxurious suites are thoughtfully designed to make you feel at home. It gives you an option to choose your room with a gorgeous city view, skyline or the sea view.",
+        "star": 3,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.5887354567603!2d72.82220557538814!3d18.993761982194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce8b78ac3db9%3A0x395ad82b0a483225!2sThe%20St.%20Regis%20Mumbai!5e0!3m2!1sen!2sin!4v1710973885470!5m2!1sen!2sin",
+        "price": "22,000",
+        "city": "Mumbai"
+    },
+    {
+        "id": 10,
+        "name": "SOHO HOUSE MUMBAI",
+        "address": "16, Juhu Tara Rd, Juhu Tara, Santacruz West, Mumbai, Maharashtra 400049, India",
+        "insta": " @sohohousemumbai",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Soho-House-Mumbai-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Soho-House-Mumbai-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Soho-House-Mumbai-3.jpg"
+        ],
+        "description": "Discover the city of dreams Mumbai in superior luxury at the SOHO House. With the views of the Arabian sea on one side and the glamorous city on the other, the hotel showcases the true essence of Mumbai. The sunset views from the rooftop pool in this multi-storey building is a fascinating experience. Even the in-house gym offers splendid vistas of the sea which is revelled by the guests.",
+        "star": 5,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.3990725859!2d72.82736799999999!3d19.090140999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c94ae4836d43%3A0x146deefd211095c9!2sSoho%20House%20Mumbai!5e0!3m2!1sen!2sin!4v1710973925044!5m2!1sen!2sin",
+        "price": "2,000",
+        "city": "Mumbai"
+    },
+    {
+        "id": 11,
+        "name": "THE LEELA PALACE CHENNAI",
+        "address": "Adyar Sea Face, The Leela Palace Road, Sathyadev Ave, MRC Nagar, Chennai, Tamil Nadu 600028, India",
+        "insta": "@theleelapalacechennai",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-Chennai-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-Chennai-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/The-Leela-Palace-Chennai-3.jpg"
+        ],
+        "description": "The Southern states of India are known for their blend of rich cultural heritage and modern outlook on life. Chennai is one of them, and the luxurious Leela Palace is a perfect example of this fusion. It is Chennai’s first and only sea-facing palace hotel with state-of-the-art amenities. Inspired by the royal Chettinad palaces, the hotel has been designed brilliantly by world-famous architects.",
+        "star": 3,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2923135749593!2d80.2736566!3d13.017048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267defbcfe68f%3A0x6658913274a5658f!2sThe%20Leela%20Palace%20Chennai%20-%20Seaside%20Modern%20Palace%20Hotel!5e0!3m2!1sen!2sin!4v1710973985332!5m2!1sen!2sin",
+        "price": "20,000",
+        "city": "Chennai"
+    },
+    {
+        "id": 12,
+        "name": "SUJÁN JAWAI RELAIS CHATEAUX",
+        "address": "Gram Panchayat, VPO Bisalpur, Tehsil Bali, Jawai Bandh, Rajasthan 306401, India",
+        "insta": "@thesujanlife",
+        "photos": [
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-1.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-2.jpg",
+            "https://theasiacollective.com/wp-content/uploads/2020/03/Evolve-Back-Hampi-3.jpg"
+        ],
+        "description": "Set in the exceptional wilderness in Rajasthan, Sujan Jawai merges adventure and luxury in the finest possible way. The tented camp has emerged triumphant in its attempt at conservation whilst offering supreme comfort. The 10 luxurious tents are designed to respect your privacy where you can relax and enjoy the incredible landscape.",
+        "star": 5,
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2923135749593!2d80.2736566!3d13.017048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267defbcfe68f%3A0x6658913274a5658f!2sThe%20Leela%20Palace%20Chennai%20-%20Seaside%20Modern%20Palace%20Hotel!5e0!3m2!1sen!2sin!4v1710973985332!5m2!1sen!2sin",
+        "price": "25,000",
+        "city": "Jaipur"
+    }
+]

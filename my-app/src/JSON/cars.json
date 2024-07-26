@@ -1,0 +1,403 @@
+[
+    {
+        "id": 1,
+        "car_model": "Maruti Suzuki Swift",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1200,
+        "available": 10,
+        "location": "Mumbai",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/ir6i4ta_1508719.jpg?q=80"
+    },
+    {
+        "id": 2,
+        "car_model": "Hyundai i20",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1300,
+        "available": 8,
+        "location": "Bangalore",
+        "photo": "https://carsales.pxcrush.net/general/car/spec/S000DDY8.jpg?width=618&height=412&watermark=351699699"
+    },
+    {
+        "id": 3,
+        "car_model": "Honda Amaze",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1500,
+        "available": 6,
+        "location": "Delhi",
+        "photo": "https://media.zigcdn.com/media/model/2021/Aug/amaze_600x400.jpg"
+    },
+    {
+        "id": 4,
+        "car_model": "Toyota Innova Crysta",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2500,
+        "available": 4,
+        "location": "Bangalore",
+        "photo": "https://media.zigcdn.com/media/model/2023/Apr/innova_2023_600x400.jpg"
+    },
+    {
+        "id": 5,
+        "car_model": "Maruti Suzuki Baleno",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1100,
+        "available": 7,
+        "location": "Mumbai",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/9herrua_1559465.jpg?q=80"
+    },
+    {
+        "id": 6,
+        "car_model": "Hyundai Verna",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1400,
+        "available": 5,
+        "location": "Hyderabad",
+        "photo": "https://www.drivespark.com/car-image/640x480x100/car/x3380673-hyundai_verna.jpg.pagespeed.ic.DJ9ayteMEC.jpg"
+    },
+    {
+        "id": 7,
+        "car_model": "Mahindra XUV500",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 2800,
+        "available": 3,
+        "location": "Ahmedabad",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/34024/xuv500-exterior-right-front-three-quarter-3.jpeg?q=80"
+    },
+    {
+        "id": 8,
+        "car_model": "Tata Tiago",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1000,
+        "available": 9,
+        "location": "Hyderabad",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/3p6alcb_1713649.jpg?q=80"
+    },
+    {
+        "id": 9,
+        "car_model": "Ford Aspire",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1350,
+        "available": 6,
+        "location": "Hyderabad",
+        "photo": "https://media.zigcdn.com/media/model/2020/Jun/aspire_600x400.jpg"
+    },
+    {
+        "id": 10,
+        "car_model": "Mahindra Scorpio",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2600,
+        "available": 4,
+        "location": "Delhi",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 11,
+        "car_model": "Renault Kwid",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 950,
+        "available": 12,
+        "location": "Mumbai",
+        "photo": "https://media.zigcdn.com/media/model/2022/Oct/kwid_600x400.jpg"
+    },
+    {
+        "id": 12,
+        "car_model": "Honda City",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1700,
+        "available": 7,
+        "location": "Ahmedabad",
+        "photo": "https://static.autox.com/uploads/cars/2023/03/honda-new-city.jpg"
+    },
+    {
+        "id": 13,
+        "car_model": "Maruti Suzuki Ertiga",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2300,
+        "available": 5,
+        "location": "Delhi",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/115777/ertiga-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 14,
+        "car_model": "Volkswagen Polo",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1250,
+        "available": 8,
+        "location": "Mumbai",
+        "photo": "https://imgcdn.oto.com.sg/large/gallery/color/13/109/volkswagen-polo-color-864926.jpg"
+    },
+    {
+        "id": 15,
+        "car_model": "Hyundai Aura",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1450,
+        "available": 6,
+        "location": "Delhi",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/v3kfq0b_1639123.jpg?q=80"
+    },
+    {
+        "id": 16,
+        "car_model": "Mahindra Thar",
+        "type": "SUV",
+        "seats": 4,
+        "price_per_day": 3000,
+        "available": 3,
+        "location": "Mumbai",
+        "photo": "https://media.zigcdn.com/media/model/2020/Aug/thar-3_600x400.jpg"
+    },
+    {
+        "id": 17,
+        "car_model": "Toyota Etios",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1550,
+        "available": 4,
+        "location": "Delhi",
+        "photo": "https://images.91wheels.com/assets/b_images/main/models/profile/profile1702446523.jpg?width=480&q=60?w=1200&q=60"
+    },
+    {
+        "id": 18,
+        "car_model": "Maruti Suzuki Brezza",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 1550,
+        "available": 4,
+        "location": "Ahmedabad",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 19,
+        "car_model": "Ford EcoSport",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 2200,
+        "available": 6,
+        "location": "Delhi",
+        "photo": "https://imgd.aeplcdn.com/1056x594/cw/ec/40369/Ford-EcoSport-Right-Front-Three-Quarter-159249.jpg?wm=1&q=80"
+    },
+    {
+        "id": 20,
+        "car_model": "Renault Duster",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 2100,
+        "available": 7,
+        "location": "Mumbai",
+        "photo": "https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/47028/duster-exterior-right-front-three-quarter-2.jpeg?q=80"
+    },
+    {
+        "id": 21,
+        "car_model": "Maruti Suzuki Swift",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1200,
+        "available": 10,
+        "location": "Chennai",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/ir6i4ta_1508719.jpg?q=80"
+    },
+    {
+        "id": 22,
+        "car_model": "Hyundai i20",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1300,
+        "available": 8,
+        "location": "Kolkata",
+        "photo": "https://carsales.pxcrush.net/general/car/spec/S000DDY8.jpg?width=618&height=412&watermark=351699699"
+    },
+    {
+        "id": 23,
+        "car_model": "Honda Amaze",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1500,
+        "available": 6,
+        "location": "Pune",
+        "photo": "https://media.zigcdn.com/media/model/2021/Aug/amaze_600x400.jpg"
+    },
+    {
+        "id": 24,
+        "car_model": "Toyota Innova Crysta",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2500,
+        "available": 4,
+        "location": "Lucknow",
+        "photo": "https://media.zigcdn.com/media/model/2023/Apr/innova_2023_600x400.jpg"
+    },
+    {
+        "id": 25,
+        "car_model": "Maruti Suzuki Baleno",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1100,
+        "available": 7,
+        "location": "Chennai",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/9herrua_1559465.jpg?q=80"
+    },
+    {
+        "id": 26,
+        "car_model": "Hyundai Verna",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1400,
+        "available": 5,
+        "location": "Kolkata",
+        "photo": "https://www.drivespark.com/car-image/640x480x100/car/x3380673-hyundai_verna.jpg.pagespeed.ic.DJ9ayteMEC.jpg"
+    },
+    {
+        "id": 27,
+        "car_model": "Mahindra XUV500",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2800,
+        "available": 3,
+        "location": "Pune",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/34024/xuv500-exterior-right-front-three-quarter-3.jpeg?q=80"
+    },
+    {
+        "id": 28,
+        "car_model": "Tata Tiago",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1000,
+        "available": 9,
+        "location": "Chennai",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/3p6alcb_1713649.jpg?q=80"
+    },
+    {
+        "id": 29,
+        "car_model": "Ford Aspire",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1350,
+        "available": 6,
+        "location": "Pune",
+        "photo": "https://media.zigcdn.com/media/model/2020/Jun/aspire_600x400.jpg"
+    },
+    {
+        "id": 30,
+        "car_model": "Mahindra Scorpio",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2600,
+        "available": 4,
+        "location": "Lucknow",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 31,
+        "car_model": "Renault Kwid",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 950,
+        "available": 12,
+        "location": "Kolkata",
+        "photo": "https://media.zigcdn.com/media/model/2022/Oct/kwid_600x400.jpg"
+    },
+    {
+        "id": 32,
+        "car_model": "Honda City",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1700,
+        "available": 7,
+        "location": "Pune",
+        "photo": "https://static.autox.com/uploads/cars/2023/03/honda-new-city.jpg"
+    },
+    {
+        "id": 33,
+        "car_model": "Maruti Suzuki Ertiga",
+        "type": "SUV",
+        "seats": 7,
+        "price_per_day": 2300,
+        "available": 5,
+        "location": "Lucknow",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/115777/ertiga-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 34,
+        "car_model": "Volkswagen Polo",
+        "type": "Hatchback",
+        "seats": 5,
+        "price_per_day": 1250,
+        "available": 8,
+        "location": "Pune",
+        "photo": "https://imgcdn.oto.com.sg/large/gallery/color/13/109/volkswagen-polo-color-864926.jpg"
+    },
+    {
+        "id": 35,
+        "car_model": "Hyundai Aura",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1450,
+        "available": 6,
+        "location": "Kolkata",
+        "photo": "https://imgd-ct.aeplcdn.com/664x415/n/v3kfq0b_1639123.jpg?q=80"
+    },
+    {
+        "id": 36,
+        "car_model": "Mahindra Thar",
+        "type": "SUV",
+        "seats": 4,
+        "price_per_day": 3000,
+        "available": 3,
+        "location": "Lucknow",
+        "photo": "https://media.zigcdn.com/media/model/2020/Aug/thar-3_600x400.jpg"
+    },
+    {
+        "id": 37,
+        "car_model": "Toyota Etios",
+        "type": "Sedan",
+        "seats": 5,
+        "price_per_day": 1550,
+        "available": 4,
+        "location": "Chennai",
+        "photo": "https://images.91wheels.com/assets/b_images/main/models/profile/profile1702446523.jpg?width=480&q=60?w=1200&q=60"
+    },
+    {
+        "id": 38,
+        "car_model": "Maruti Suzuki Brezza",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 1550,
+        "available": 4,
+        "location": "Kolkata",
+        "photo": "https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80"
+    },
+    {
+        "id": 39,
+        "car_model": "Ford EcoSport",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 2200,
+        "available": 6,
+        "location": "Lucknow",
+        "photo": "https://imgd.aeplcdn.com/1056x594/cw/ec/40369/Ford-EcoSport-Right-Front-Three-Quarter-159249.jpg?wm=1&q=80"
+    },
+    {
+        "id": 40,
+        "car_model": "Renault Duster",
+        "type": "SUV",
+        "seats": 5,
+        "price_per_day": 2100,
+        "available": 7,
+        "location": "Pune",
+        "photo": "https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/47028/duster-exterior-right-front-three-quarter-2.jpeg?q=80"
+    }
+
+]

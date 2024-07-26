@@ -1,0 +1,766 @@
+
+Acknowledgement :
+We would like to express our deepest appreciation to all those who provide us the possibility to complete this training. A special gratitude to the platform of Great Learning , and to my department of Computer Science and Engineering, BK Birla Institute of Engineering and Technology , Pilani for this opportunity of doing training . It helped us to explore our skill and increased our interest in various technologies.
+Your Sincerely,
+Naveen (20EBKCS077)
+
+
+Table of content :
+React.js  open-source JavaScript library used for building user interfaces or UI components
+
+
+JSX       JSX stands for JavaScript XML. It is a JavaScript syntax extension. 
+
+Virtual DOM   A virtual DOM object is a representation of the original DOM object.
+
+Advantage of ReactJS    ReactJS is much easier to learn and use. It comes 
+
+
+
+Topic Detail :
+Introduction for react jsReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library responsible only for the view layer of the application. It was created by Jordan Walke, who was a software engineer at Facebook. It was initially developed and maintained by Facebook and was later used in its products like WhatsApp & Instagram. Facebook developed ReactJS in 2011 in its newsfeed section, but it was released to the public in the month of May 2013.Today, most of the websites are built using MVC (model view controller architecture. In MVC architecture, React is the 'V' which stands for view, whereas the architecture is provided by the Redux or Flux. A ReactJS application is made up of multiple components, each component responsible for outputting a small, reusable piece of HTML code. The components are the heart of all React applications. These Components can be nested with other components to allow complex applications to be built of simple building blocks. ReactJS uses virtual DOM based mechanism to fill data in HTML DOM. The virtual DOM works fast as it only changes individual DOM elements instead of reloading complete DOM every time.To create React app, we write React components that correspond to various elements. We organize these components inside higher level components which define the application structure. For example, we take a form that consists of many elements like input fields, labels, or buttons. We can write each element of the form as React components, and then we combine it into a higher-level component, i.e., the form component itself. The form components would specify the structure of the form along with elements inside of it.
+
+
+
+Learn ReactJS importance 
+Today, many JavaScript frameworks are available in the market(like angular, node), but still, React came into the market and gained popularity amongst them. The previous frameworks follow the traditionaldata flow structure, which uses the DOM (Document Object Model). DOM is an object which is created by the browser each time a web page is loaded. It dynamically adds or removes the data at the back end and when any modifications were done, then each time a new DOM is created for the same page. This repeated creation of DOM makes unnecessary memory wastage and reduces the performance of the application.Therefore, a new technology ReactJS framework invented which remove this drawback. ReactJS allows you to divide your entire application into various components. ReactJS still used the same traditional data flow, but it is not directly operating on the browser's Document Object Model (DOM) immediately; instead, it operates on a virtual DOM. It means rather than manipulating the document in a browser after changes to our data, it resolves changes on a DOM built and run entirely in memory. After the virtual DOM has been updated, React determines what changes made to the actual browser's DOM. The React Virtual DOM exists entirely in memory and is a representation of the web browser's DOM. Due to this, when we write a React component, we did not write directly to the DOM; instead, we are writing virtual components that react will turn 
+
+
+into the DOM.
+
+React create-react-app
+Starting a new React project is very complicated, with so many build tools. It uses many dependencies, configuration files, and other requirements such as Babel, Webpack, ESLint before writing a single line of React code. Create React App CLI tool removes all that complexities and makes React app simple. For this, you need to install the package using NPM, and then run a few simple commands to get a new React project.The create-react-app is an excellent tool for beginners, which allows you to create and run React project very quickly. It does not take any configuration manually. This tool is wrapping all of the required dependencies like Webpack, Babel for React project itself and then you need to focus on writing React code only. This tool sets up the development environment, provides an excellent developer experience, and optimizes the app for production.
+
+
+React Features
+Currently, ReactJS gaining quick popularity as the best JavaScript framework among web developers. It is playing an essential role in the front-end ecosystem. The important features of ReactJS are as following.
+
+JSX
+Components
+One-way Data Binding
+Virtual DOM
+Simplicity
+Performance
+
+
+JSX
+JSX stands for JavaScript XML. It is a JavaScript syntax extension. Its an XML or HTML like syntax used by ReactJS. This syntax is processed into JavaScript calls of React Framework. It extends the ES6 so that HTML like text can co-exist with JavaScript react code. It is not necessary to use JSX, but it is recommended to use in ReactJS.
+
+
+Components
+ReactJS is all about components. ReactJS application is made up of multiple components, and each component has its own logic and controls. These components can be reusable which help you to maintain the code when working on larger scale projects. One-way Data Binding ReactJS is designed in such a manner that follows unidirectional data flow or one-way data binding. The benefits of one-way data binding give you better control throughout the application. If the data flow is in another direction, then it requires additional features. It is because components are supposed to be immutable and the data within them cannot be changed. Flux is a pattern that helps to keep your data unidirectional. This makes the application more flexible that 
+
+leads to increase efficiency.
+
+Virtual DOM
+A virtual DOM object is a representation of the original DOM object. It works like a one-way data binding. Whenever any modifications happen in the web application, the entire UI is rerendered in virtual DOM representation. Then it checks the difference between the previous DOM representation and new DOM. Once it has done, the real DOM will update only the things that have actually changed. This makes the application faster, and there is no wastage of memory.
+ 
+Simplicity
+ReactJS uses JSX file which makes the application simple and to code as well as understand. We know that ReactJS is a component-based approach which makes the code reusable as your need. This makes it simple to use and learn.
+
+Performance
+ReactJS is known to be a great performer. This feature makes it much better than other frameworks out there today. The reason behind this is that it manages a virtual DOM. The DOM is a cross-platform and programming API which deals with HTML, XML or XHTML. The DOM exists entirely in memory. Due to this, when we create a component, we did not write directly to the DOM. Instead, we are writing virtual components that will turn into the DOM leading to smoother and faster performance.
+
+Pros and Cons of ReactJS
+Today, ReactJS is the highly used open-source JavaScript Library. It helps in creating impressive web apps that require minimal effort and coding. The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. There are important pros and cons of ReactJS given as following:
+
+Advantage of ReactJS
+1. Easy to Learn and USe
+ReactJS is much easier to learn and use. It comes with a good supply of documentation, tutorials, and training resources. Any developer who comes from a JavaScript background can easily understand and start creating web apps using React in a few days. It is the V(view part) in the MVC (Model-View-Controller) model, and referred to as ?one of the JavaScript frameworks.? It is not fully featured but has the advantage of open-source JavaScript User Interface(UI) library, which helps to execute the task in a better manner.
+2. Creating Dynamic Web Applications Becomes Easier To create a dynamic web application specifically with HTML strings was tricky because it requires a complex coding, but React JS solved that issue and makes it easier. It provides less coding and gives more functionality. It makes use of the JSX(JavaScript Extension), which is a particular syntax letting HTML quotes and HTML tag syntax to render particular subcomponents. It also supports the building of machine-readable codes.
+3. Reusable Components
+A ReactJS web application is made up of multiple components, and each component has its own logic and controls. These components are responsible for outputting a small, reusable piece of HTML code which can be reused wherever you need them. The reusable code helps to make your apps easier to develop and maintain. These Components can be nested with other components to allow complex applications to be built of simple building blocks. ReactJS uses virtual DOM based mechanism to fill data in HTML DOM. The virtual DOM works fast as it only changes individual DOM elements instead of reloading complete DOM every time.
+4. Performance Enhancement
+ReactJS improves performance due to virtual DOM. The DOM is a cross-platform and programming API which deals with HTML, XML or XHTML. Most of the developers faced the problem when the DOM was updated, which slowed down the performance of the application. ReactJS solved this problem by introducing virtual DOM. The React Virtual DOM exists entirely in memory and is a representation of the web browser's DOM. Due to this, when we write a React component, we did not write directly to the DOM. Instead, we are writing virtual components that react will turn into the DOM, leading to smoother and faster performance.
+5. The Support of Handy Tools
+React JS has also gained popularity due to the presence of a handy set of tools. These tools make the task of the developers understandable and easier. The React Developer Tools have been designed as Chrome and Firefox dev extension and allow you to inspect the React component hierarchies in the virtual DOM. It also allows you to select particular components and examine and edit their current props and state.
+6. Known to be SEO Friendly
+Traditional JavaScript frameworks have an issue in dealing with SEO. The search engines generally having trouble in reading JavaScript-heavy applications. Many web developers have often complained about this problem. ReactJS overcomes this problem that helps developers to be easily navigated on various search engines. It is because React.js applications can run on the server, and the virtual DOM will be rendering and returning to the browser as a regular web page.
+7. The Benefit of Having JavaScript Library
+Today, ReactJS is choosing by most of the web developers. It is because it is offering a very rich JavaScript library. The JavaScript library provides more flexibility to the web developers to choose the way they want.
+8. Scope for Testing the Codes
+ReactJS applications are extremely easy to test. It offers a scope where the developer can test and debug their codes with the help of native tools.Disadvantage of ReactJS
+
+1. The high pace of development
+The high pace of development has an advantage and disadvantage both. In case of disadvantage, since the environment continually changes so fast, some of the developers not feeling comfortable to relearn the new ways of doing things regularly. It may be hard for them to adopt all these changes with all the continuous updates. They need to be always updated with their skills and learn new ways of doing things.
+2. Poor Documentation
+It is another cons which are common for constantly updating technologies. React technologies updating and accelerating so fast that there is no time to make proper documentation. To overcome this, developers write instructions on their own with the evolving of new releases and tools in their current projects.
+
+
+3. View Part
+ReactJS Covers only the UI Layers of the app and nothing else. So you still need to choose some other technologies to get a complete tooling set for development in the project.
+4. JSX as a barrier
+ReactJS uses JSX. It's a syntax extension that allows HTML with JavaScript mixed together. This approach has its own benefits, but some members of the development community consider JSX as a barrier, especially for new developers. Developers complain about its complexity in the learning curve.
+
+Difference Between AngularJS and ReactJS
+AngularJS
+AngularJS is an open-source JavaScript framework used to build a dynamic web application. Misko Hevery and Adam Abrons developed AngularJS in 2009, and now Google maintained it. The latest version of Angular is 1.7.8 on March 11, 2019. It is based on HTML and JavaScript and mostly used for building a Single Page Application. It can be included to an HTML page with a <script> tag. It extends HTML by adding built-in attributes with the directive and binds data to HTML with Expressions.
+Features of AngularJS
+Data-binding: AngularJS follows the two-way data binding. It is the automatic synchronization of data between model and view components.POJO Model: AngularJS uses POJO (Plain Old JavaScript) model, which provides spontaneous and well-planned objects. The POJO model makes AngularJS self-sufficient and easy to use.Model View Controller(MVC) Framework: MVC is a software design pattern used for developing web applications. The working model of AngularJS is based on MVC patterns. The 
+Routing: Routing is the transition from one view to another view. Routing is the key aspect of single page applications where everything comes in a single page. Here, developers do not want to redirect the users to a new page every time they click the menu. The developers want the content load on the same page with the URL changing.
+
+ReactJS
+ReactJS is an open-source JavaScript library used to build a user interface for Single Page Application. It is responsible only for the view layer of the application. It provides developers to compose complex UIs from a small and isolated piece of code called "components." ReactJS made of two parts first is components, that are the pieces that contain HTML code and what you want to see in the user interface, and the second one is HTML document where all your components will be rendered.Jordan Walke, who was a software engineer at Facebook, develops it. Initially, it was developed and maintained by Facebook and was later used in its products like WhatsApp & Instagram. 
+
+
+Facebook developed ReactJS in 2011 for the newsfeed section, but it was released to the public in May 2013.
+
+Features of ReactJS
+JSX: JSX is a JavaScript syntax extension. The JSX syntax is processed into JavaScript calls of React Framework. It extends the ES6 so that HTML like text can co-exist with JavaScript React code.
+Components: ReactJS is all about components. ReactJS application is made up of multiple 
+components, and each component has its logic and controls. These components can be reusable, which help you to maintain the code when working on larger scale projects.One-way Data Binding: ReactJS follows unidirectional data flow or one-way data binding. The one-way data binding gives you better control throughout the application. If the data flow is in another direction, then it requires additional features. It is because components are supposed to be immutable, and the data within them cannot be changed.
+Virtual DOM: A virtual DOM object is a representation of the real DOM object. Whenever any modifications happen in the web application, the entire UI is re-rendered in virtual DOM representation. Then, it checks the difference between the previous DOM representation and new DOM. Once it has done, the real DOM will update only the things that are changed. It makes the application faster, and there is no wastage of memory.
+Simplicity: ReactJS uses the JSX file, which makes the application simple and to code as well as understand. Also, ReactJS is a component-based approach which makes the code reusable as your need. It makes it simple to use and learn.
+Performance: ReactJS is known to be a great performer. The reason behind this is that it manages a virtual DOM. The DOM exists entirely in memory. Due to this, when we create a component, we did not write directly to the DOM. Instead, we are writing virtual Components that will turn into the DOM, leading to smoother and faster performance.
+
+
+
+
+
+
+React State
+
+The state is an updatable structure that is used to contain data or information about the component. The state in a component can change over time. The change in state over time can happen as a response to user action or system event. A component with the state is known as stateful components. It is the heart of the react component which determines the behavior of the component and how it will render. They are also responsible for making a component dynamic and interactive.
+A state must be kept as simple as possible. It can be set by using the setState() method and calling setState() method triggers UI updates. A state represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly. To set an initial state before any interaction occurs, we need to use the getInitialState() method.
+For example, if we have five components that need data or information from the state, then we need to create one container component that will keep the state for all of them.Defining State
+To define a state, you have to first declare a default set of values for defining the component's initial state. To do this, add a class constructor which assigns an initial state using this.state. The 'this.state' property can be rendered inside render() method.Changing the State
+We can change the component state by using the setState() method and passing a new state object as the argument. Now, create a new method toggleDisplayBio() in the above example and bind this keyword to the toggleDisplayBio() method otherwise we can't access this inside toggleDisplayBio() method.
+
+React Props
+Props stand for "Properties." They are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function.Props are immutable so we cannot modify the props from inside the component. Inside the components, we can add attributes called props. These attributes are available in the component as this.props and can be used to render dynamic data in our render method.When you need immutable data in the component, you have to add props to reactDom.render() method in the main.js file of your ReactJS project and used it inside the component in which you need.
+Default Props It is not necessary to always add props in the reactDom.render() element. You can also set default props directly on the component constructorState and Props
+
+
+State Vs. Props
+State
+The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
+Props
+Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+
+
+React Component APIReactJS component is a top-level API. It makes the code completely individual and reusable in the application. It includes various methods for:React HooksHooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.Hooks are backward-compatible, which means it does not contain any breaking changes. Also, it does not replace your knowledge of React concepts.When to use a Hooks
+If you write a function component, and then you want to add some state to it, previously you do this by converting it to a class. But, now you can do it by using a Hook inside the existing function component.
+
+Rules of Hooks
+Hooks are similar to JavaScript functions, but you need to follow these two rules when using them. Hooks rule ensures that all the stateful logic in a component is visible in its source code. These rules are:
+1. Only call Hooks at the top level
+Do not call Hooks inside loops, conditions, or nested functions. Hooks should always be used at the top level of the React functions. This rule ensures that Hooks are called in the same order each time a components renders.
+2. Only call Hooks from React functions You cannot call Hooks from regular JavaScript functions. Instead, you can call Hooks from React function components. Hooks can also be called from custom Hooks.
+
+
+State Vs. Props
+State
+The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
+Props
+Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+
+Difference between State and Props
+
+Props
+Props are read-only.
+Props are immutable.
+Props allow you to pass data from one component to other components as an argument.
+Props can be accessed by the child component.
+Props are used to communicate between components.
+Stateless component can have Props.
+Props make components reusable.
+Props are external and controlled by whatever renders the component.
+State
+State changes can be asynchronous.
+State is mutable.
+State holds information about the components.
+State cannot be accessed by child components.
+States can be used for rendering dynamic changes with the component.
+
+States can be used for rendering dynamic changes with the component.
+Stateless components cannot have State.
+State cannot make components reusable.
+State cannot make components reusable.
+The State is internal and controlled by the React Component itself.
+
+
+
+YATRA YOJANA: A HOTEL BOOKING REACT WEB APPLICATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Firebase
+
+
+
+
+Table of Contents
+1. FIREBASE – OVERVIEW 
+2. FIREBASE – ENVIRONMENT SETUP 
+3. FIREBASE – DATA
+4. FIREBASE – ARRAYS 
+5. FIREBASE – WRITE DATA
+Set
+Update
+6. FIREBASE – WRITE LIST DATA
+The Push Method
+The Key Method
+7. FIREBASE – WRITE TRANSACTIONAL DATA 
+8. FIREBASE – READ DATA 
+9. FIREBASE – EVENT TYPES
+10. FIREBASE – DETACHING CALLBACKS 
+ AUTHENTICATION 
+Create user
+Sign In 
+Signout
+15. FIREBASE – GOOGLE AUTHENTICATION 
+16. FIREBASE – FACEBOOK AUTHENTICATION
+17. FIREBASE – TWITTER AUTHENTICATION
+18. FIREBASE – GITHUB AUTHENTICATION
+19. FIREBASE – ANONYMOUS AUTHENTICATION
+20. FIREBASE – OFFLINE CAPABILITIES
+21. FIREBASE – SECURITY
+Read and Write 
+22. FIREBASE – DEPLOYING
+
+
+
+
+Firebase
+
+
+Firebase can power your app's backend, including data storage, user authentication, statichosting, and more. Focus on creating extraordinary user experiences. We will take care of therest. Build cross-platform native mobile and web apps with our Android, iOS, and JavaScriptSDKs. You can also connect Firebase to your existing backend using our server-side librariesor our REST API.
+Firebase Features
+ Real-time Database − Firebase supports JSON data and all users connected to itreceive live updates after every change.
+ Authentication – We can use anonymous, password or different socialauthentications.
+ Hosting – The applications can be deployed over secured connection to Firebaseservers.
+Firebase Advantages
+ It is simple and user friendly. No need for complicated configuration.
+ The data is real-time, which means that every change will automatically updateconnected clients.
+ Firebase offers simple control dashboard.
+ There are a number of useful services to choose.
+Firebase Limitations
+ Firebase free plan is limited to 50 Connections and 100 MB of storage.
+In the next chapter, we will discuss the environment setup of Firebase.
+
+1. FIREBASE – OVERVIEW
+
+In this chapter, we will show you how to add Firebase to the existing application. We willneed NodeJS. Check the link from the following table, if you do not have it already.
+S No. Software & Description
+1 NodeJS and NPM
+NodeJS is the platform needed for Firebase development. Checkout our NodeJS Environment Setup.
+Step 1 – Create a Firebase Account
+You can create a Firebase account here.
+Step 2 – Create Firebase App
+You can create new app from the dashboard page. The following image shows the app wecreated. We can click the Manage App button to enter the app.
+2. FIREBASE – ENVIRONMENT SETUP
+Firebase
+6
+Step 3a – Create a basic HTML/JS App
+You just need to create a folder where your app will be placed. Inside that folder, we willneed index.html and index.js files. We will add Firebase to the header of our app.
+index.html
+<html>
+ <head>
+ <script src =
+"https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+ <script type = "text/javascript" src = "index.js"></script>
+ </head>
+ <body>
+ </body>
+</html>
+Step 3b - Use NPM or Bower
+If you want to use your existing app, you can use Firebase NPM or Bowers packages. Run oneof the following command from your apps root folder.
+npm install firebase --save
+bower install firebase
+Firebase
+7
+The Firebase data is representing JSON objects. If you open your app from Firebasedashboard, you can add data manually by clicking on the + sign.
+We will create a simple data structure. You can check the image below.
+In the previous chapter, we connected Firebase to our app. Now, we can log Firebase to theconsole.console.log(firebase)
+3. FIREBASE – DATA
+Firebase
+8
+We can create a reference to our player’s collection.
+var ref = firebase.database().ref('players');
+console.log(ref);
+We can see the following result in the console.
+Firebase
+9
+This chapter will explain the Firebase representation of arrays. We will use the same datafrom the previous chapter.
+We could create this data by sending the following JSON tree to the player’s collection.
+['john', 'amanda']
+This is because Firebase does not support Arrays directly, but it creates a list of objects withintegers as key names.
+4. FIREBASE – ARRAYS
+Firebase
+10
+The reason for not using arrays is because Firebase acts as a real ti‎me database and if acouple of users were to manipulate arrays at the same time, the result could be problematicsince array indexes are constantly changing.The way Firebase handles it, the keys (indexes) will always stay the same. We coulddelete john and amanda would still have the key (index) 1.
+Firebase
+11
+In this chapter, we will show you how to save your data to Firebase.
+Set
+The set method will write or replace data on a specified path. Let us create a reference to the
+player’s collection and set two players.
+var playersRef = firebase.database().ref("players/");
+playersRef.set({
+ John: {
+ number: 1,
+ age: 30
+ },
+ Amanda: {
+ number: 2,
+ age: 20
+ }
+});
+We will see the following result.
+5. FIREBASE – WRITE DATA
+Firebase
+12
+Update
+We can update the Firebase data in a similar fashion. Notice how we are using theplayers/john path.var johnRef = firebase.database().ref("players/John");
+johnRef.update({
+ "number": 10
+});
+Firebase
+13
+When we refresh our app, we can see that the Firebase data is updating.
+Firebase
+14
+In our last chapter, we showed you how to write data in Firebase. Sometimes you need tohave a unique identifier for your data. When you want to create unique identifiers for your data, you need to use the push method instead of the set method.
+The PushMethod
+The push() method will create a unique id when the data is pushed. If we want to create our
+players from the previous chapters with a unique id, we could use the code snippet given
+below.
+var ref = new Firebase('https://tutorialsfirebase.firebaseio.com');
+var playersRef = ref.child("players");
+playersRef.push({
+ name: "John",
+ number: 1,
+ age: 30
+});
+playersRef.push({
+ name: "Amanda",
+ number: 2,
+ age: 20
+});
+Now our data will look differently. The name will just be a name/value pair like the rest of the
+properties.
+
+
+
+
+
+This project details the development of a hotel booking application built using React.js and Firebase. The application aims to provide users with an intuitive and seamless experience for searching, booking, and managing hotel reservations. Leveraging the power of React.js, the frontend is designed to be highly responsive, offering dynamic views and a smooth user interface. Firebase serves as the backend, providing robust solutions for real-time database management, authentication, and hosting.
+
+The core features of the application include user authentication, allowing users to securely sign up and log in, and a comprehensive search functionality that enables users to filter hotels based on various criteria such as location, price, and amenities. Each hotel listing displays detailed information, including images, ratings, and reviews, to assist users in making informed decisions.
+
+Data management is handled through Firebase Realtime Database, ensuring real-time synchronization and updates. The application also incorporates Firebase Authentication for secure user management and Firebase Storage for efficient handling of hotel images.
+
+This report outlines the design and implementation process, discussing the key components and technologies used, including React hooks, React Router for navigation, and the integration of Firebase services. The challenges faced during development and the solutions implemented are also covered, providing insights into the practical aspects of building a modern web application.
+
+The hotel booking app successfully demonstrates the capabilities of combining React.js with Firebase to create a responsive, scalable, and feature-rich application. Future enhancements are proposed to further improve user experience and expand functionality, ensuring the app remains competitive in the evolving landscape of web-based hotel booking platforms.
+
+
+Acknowledgements
+We would like to express our deepest appreciation to all those who provided us with the opportunity to complete this project. A special gratitude goes to the platform of Great Learning and to the Department of Computer Science and Engineering at BK Birla Institute of Engineering and Technology, Pilani, for offering this opportunity. This project has allowed us to enhance our skills and deepen our interest in various technologies.
+
+
+Naveen (20EBKCS077) & Yogesh Jangir (20EBKCS130) 
+
+YATRA YOJANA: A HOTEL BOOKING REACT WEB APPLICATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Report: YatraYojana Travel Application
+Overview
+The YatraYojana Travel Application is a comprehensive web application designed to facilitate booking stays, flights, car rentals, and attractions. The application is built using React and Firebase, leveraging modern web development practices to ensure a seamless user experience.
+
+Key Features
+Authentication:
+
+Firebase Authentication is used to handle user sign-in and sign-out processes.
+The application differentiates between regular users and admin users based on their email addresses.
+SweetAlert2 and react-toastify are used to provide user-friendly notifications and alerts for sign-in, sign-out, and other actions.
+
+Responsive Navigation Bar:
+
+The navigation bar includes links to various sections such as Stays, Flights, Car Rentals, Attractions, Contact, About, and Admin (for admin users only).
+The navigation bar hides on scroll down and reappears on scroll up to provide more screen space and a cleaner user interface.
+Dark mode and light mode themes can be toggled by the user.
+
+Stays Component:
+
+Data Retrieval: Hotel data is fetched from Firebase Realtime Database.
+Search Functionality: Users can search for hotels by city name or hotel name.
+Carousel: A carousel displays banner images to enhance the visual appeal.
+Date and Room Filtering: Users can filter stays by date and number of rooms.
+Loading Spinner: A loading spinner is displayed while data is being fetched from the database.
+
+HotelCard Component:
+
+Displays individual hotel information including name, city, and other details.
+Each hotel card is clickable and leads to detailed information about the hotel.
+Hero Component:
+
+The hero section includes a video background and introductory text to welcome users and provide an overview of the application’s purpose.
+HotelService Component:
+
+Displays additional services related to hotels, though details on its functionality are not provided in the current code.
+
+Technologies Used
+Frontend:
+
+React: The core library for building the user interface.
+React Router: For client-side routing.
+React Icons: For incorporating various icons in the UI.
+SweetAlert2: For alert popups.
+react-toastify: For toast notifications.
+Backend:
+
+
+Firebase Authentication: For user authentication.
+Firebase Realtime Database: For storing and retrieving hotel data.
+Styling:
+
+CSS Modules: For scoped and maintainable CSS.
+Responsive Design: Ensures the application is usable on various screen sizes.
+Project Structure
+Nav Component:
+
+Handles the navigation bar, user authentication state, and theme toggling.
+Stays Component:
+
+Fetches and displays hotel data, includes search and filtering functionality, and implements a carousel for banner images.
+HotelCard Component:
+
+Displays individual hotel information in a card format.
+Hero Component:
+
+Provides a hero section with a video background and introductory text.
+HotelService Component:
+
+(Functionality not detailed in the provided code).
+
+User Experience
+Authentication: Users can sign in and sign out, with specific features accessible only to admin users.
+Navigation: The navigation bar is user-friendly, responsive, and supports theme toggling.
+Search and Filtering: Users can search for hotels by city or name and filter stays by date and room number.
+Visual Appeal: The application includes a video background in the hero section and a carousel for displaying banners, enhancing the visual experience.
+Future Enhancements
+Extended Search Functionality:
+
+Implement advanced search filters for better user experience.
+Enhanced User Interface:
+
+Improve styling and animations to make the application more visually appealing.
+Admin Dashboard:
+
+Develop a comprehensive admin dashboard for managing hotels, flights, car rentals, and attractions.
+Bookings Management:
+
+Allow users to make and manage their bookings directly within the application.
+Performance Optimization:
+
+Optimize data fetching and state management for better performance, especially for large datasets.
+Conclusion
+The YatraYojana Travel Application is a robust platform for users to explore and book various travel services. With its responsive design, comprehensive search functionality, and smooth user experience, it serves as a valuable tool for travelers. Future enhancements will further elevate its functionality and user experience.
+
+
+
+
+
+
+
+
+Detailed Explanation of the React Application Code
+Introduction
+This report provides a detailed explanation of a React application that uses React Router for navigation, lazy loading for performance optimization, and a theme management system for toggling between light and dark modes. The application structure includes a navigation bar, footer, and several pages and components.
+
+Components and Functions
+Imports and Setup
+
+React and Hooks: The application imports necessary functions and hooks from React, including useEffect, Suspense, and lazy.
+CSS: The application imports a CSS file (style.css) for styling.
+React Router: The application uses react-router-dom for routing. It imports BrowserRouter (aliased as Router), Route, Routes, and useLocation for managing routes.
+Custom Hooks: The application imports a custom hook useTheme to manage the theme state.
+Lazy Loading Pages and Components
+
+Lazy Loading: Several pages and components are loaded lazily using React's lazy function to improve performance by splitting the code into smaller chunks and loading them on demand. These include pages like Stays, Flight, CarRentals, and components like HotelDetails and AdminPanel.
+ScrollToTop Component
+
+Purpose: This component ensures that the window scrolls to the top whenever the route changes.
+Implementation: It uses the useLocation hook to get the current pathname and the useEffect hook to scroll to the top whenever the pathname changes.
+App Component
+
+Theme Management: The component uses the useTheme hook to get the current theme state (isDarkMode).
+Class Name: The top-level div element applies a class based on the current theme (dark or light).
+Router Setup: The application is wrapped in a Router component to enable routing.
+Navigation and Footer: The Nav and Footer components are included to provide consistent navigation and footer across all pages.
+Routes and Suspense: The Routes component defines the routes for the application. Each route is wrapped in a Suspense component with a fallback loading spinner to handle the loading state of lazy-loaded components.
+Defined Routes
+
+Home Page: The / route renders the Stays component.
+Flight Page: The /flight route renders the Flight component.
+Car Rentals Page: The /car-rentals route renders the CarRentals component.
+Attraction Page: The /attraction route renders the Attraction component.
+Register and Sign-In Pages: The /register and /sign-in routes render the Register and SignIn components, respectively.
+Details Pages: Dynamic routes like /:id, /flight/:id, and /car-rentals/:id render the HotelDetails, FlightDetails, and CarRentalsDetails components, respectively, based on the ID parameter.
+Static Pages: The /contact and /about routes render the Contact and About components, respectively.
+Admin Panel: The /admin route renders the AdminPanel component.
+NoPage Component: The /* wildcard route renders the NoPage component for any undefined routes.
+
+
+
+
+Explanation of the Nav Component
+The Nav component is a part of a React application that serves as the navigation bar. It includes various links for different pages, a dropdown menu for mobile devices, and a theme toggle for switching between light and dark modes. Let's break down its functionality:
+
+Theme Management
+
+The component uses the useTheme hook to access the current theme state (isDarkMode) and the toggleTheme function to toggle between light and dark modes.
+State Management
+
+The component uses useState hook to manage the state of the dropdown menu (isOpen), the user (user), and whether the user is an admin (isAdmin).
+Scroll Behavior
+
+The component includes logic to hide the navigation bar when scrolling down and show it when scrolling up. This behavior is achieved by managing the visible state based on the scroll position.
+User Authentication
+
+The component uses Firebase's authentication (auth) to check if a user is signed in and whether the signed-in user is an admin.
+Dropdown Menu
+
+The dropdown menu is used for mobile devices and is toggled by clicking on a hamburger menu icon. Clicking the icon again or clicking outside the menu closes it.
+The menu contains links to different pages of the application (Stays, Flight, Car Rentals, Attraction, Contact, and About), each represented by an icon and text.
+If the user is an admin, an additional Admin link is shown.
+If no user is signed in, a Login link is shown, which redirects to the sign-in page.
+If a user is signed in, a Logout link is shown, which triggers the sign-out process.
+Theme Toggle
+
+The theme toggle icon (FaMoon for dark mode, FaSun for light mode) allows users to switch between light and dark modes. Clicking the icon calls the toggleTheme function to change the theme.
+Alerts and Toasts
+
+The component uses Swal (SweetAlert2) for confirmation dialogs and react-toastify for displaying success or error messages related to sign-in and sign-out actions.
+Logo
+
+The navigation bar includes a logo (logo.png) and the text "YatraYojana" as the branding of the application.
+Event Handlers
+
+The component includes event handlers (toggleDropdown, signout) for managing dropdown menu visibility and handling sign-out actions.
+
+
+
+
+
+Explanation of the Stays Component
+The Stays component is a part of a React application that displays a list of hotels and provides functionality to filter and search for hotels based on city name. Here's a breakdown of its functionality:
+
+Firebase Data Retrieval
+
+The component fetches hotel data from Firebase using the getDatabase, ref, and onValue functions from the Firebase SDK. It stores the fetched data in the hotelArray state and sets the loading state to false when the data is loaded.
+Hero Section
+
+The component includes a hero section (Hero component) that displays a video and some text about exploring the world.
+Date Filtering
+
+The component restricts the selection of dates in the search form to the current date (minDate) and 30 days ahead (maxDate).
+Search Form
+
+The component includes a search form where users can enter a city name to filter the list of hotels. It also includes inputs for the number of rooms and the check-in and check-out dates.
+Hotel Filtering
+
+The component filters the list of hotels based on the entered city name (cityname) using the searchBtn function. It updates the searchHotels state with the filtered hotels and displays them.
+Carousel
+
+The component includes a carousel that displays banner images (b1, b2, b3, b4). Users can navigate through the images using previous (prevSlide) and next (nextSlide) buttons.
+Loading Spinner
+
+If the data is still loading (loading is true), the component displays a loading spinner until the data is fetched.
+Hotel Cards
+
+The component maps over the searchHotels array (or hotelArray if no search is performed) and renders a HotelCard component for each hotel. Each card is wrapped in a Link component that redirects to the hotel's details page (/${hotel.id}) when clicked.
+Hotel Service Component
+
+The component includes a HotelService component that likely provides additional information or services related to hotels, such as booking options or amenities.

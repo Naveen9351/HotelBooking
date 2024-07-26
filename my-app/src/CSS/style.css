@@ -1,0 +1,2426 @@
+:root,
+.light {
+    --body-bg-color: #091E420F;
+    --card-color: #ffffff;
+    --nav-color: #091E42;
+    --text-color: #181717;
+    --hero-bg: rgba(0, 0, 0, 0.336);
+    --input-text: rgb(113, 103, 103);
+    --btn-bg: #172B4D;
+
+    color: var(--text-color);
+}
+
+.dark {
+    --body-bg-color: #2C333A;
+    --card-color: #202020;
+    --nav-color: #101214;
+    --text-color: #d6d6d6;
+    --hero-bg: rgba(0, 0, 0, 0.487);
+    --input-text: rgb(225, 225, 225);
+    --btn-bg: #202020;
+
+    color: var(--text-color);
+}
+
+
+
+
+
+.b {
+    position: relative;
+    background-color: var(--body-bg-color);
+
+
+}
+
+
+input {
+
+    border: 1px solid var(--input-text);
+    color: var(--input-text);
+    background-color: transparent;
+    outline: none;
+
+
+
+}
+
+
+
+
+textarea {
+    border: 1px solid var(--input-text);
+    color: var(--input-text);
+    background-color: transparent;
+
+
+}
+
+
+h1,
+h2,
+h3,
+h5,
+p,
+span,
+a {
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    a {
+        font-size: 9px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btn {
+    font-size: 15px;
+    padding: 10px;
+    background-color: var(--btn-bg);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+
+
+.delete-btn {
+    background-color: rgb(246, 68, 68);
+    cursor: pointer;
+    width: 5rem;
+}
+
+
+
+
+select {
+    color: var(--text-color);
+    background-color: var(--card-color);
+}
+
+
+/* loading-spinner ki CSS**************************************** */
+
+.loading-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-color);
+    z-index: 9999;
+
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid transparent;
+    border-top-color: var(--text-color);
+    border-left-color: var(--text-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+/* Sign or Login ki CSS**************************************** */
+
+
+
+.signin-container {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.signin-form {
+    min-width: 15rem;
+    background-color: var(--card-color);
+    margin: 20vh auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.signin-label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.signin-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-text {
+    font-size: 15px;
+
+}
+
+.forget {
+    cursor: pointer;
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.signin-link {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.signin-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+.or-section {
+    position: relative;
+    margin: 2rem auto;
+}
+
+.or-hr {
+    width: 10rem;
+    margin: 20px auto;
+    border: 1px solid transparent;
+    background-color: var(--text-color);
+}
+
+.or-text {
+    position: absolute;
+    top: -0.8rem;
+    left: 6.9rem;
+    height: 20px;
+    width: 18px;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    padding: 5px;
+    display: flex;
+    z-index: 10;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+
+
+
+
+.signin-with-google-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Register Page ki CSS ******************************** */
+
+
+
+
+
+.register-container {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.register-form {
+    width: 15rem;
+    background-color: var(--card-color);
+    margin: 20vh auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register-label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.register-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+/* Stay Page ki CSS ************************************ */
+
+.stay-form-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    background-color: var(--nav-color);
+    padding: 1.5rem;
+
+
+}
+
+.stay-form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.stay-form-city {
+    padding: 0px 20px;
+    font-size: 15px;
+
+    border-radius: 5px;
+    width: 12rem;
+    height: 2rem;
+}
+
+.stay-form-rooms {
+    padding: 0px 20px;
+    font-size: 15px;
+
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.stay-form-date {
+    padding: 0px 20px;
+    font-size: 15px;
+
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+}
+
+
+
+.stay-form-botton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 5rem;
+    background-color: #007bff;
+    color: white;
+    height: 2rem;
+}
+
+
+
+.stays-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 3rem;
+}
+
+
+
+
+/* Flight Section ki CSS ************************************** */
+
+
+.flight-card-container {
+    width: 80%;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.flight-card {
+    background-color: var(--card-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 30rem;
+    padding: 10px 20px;
+    margin: 3rem auto;
+    align-items: center;
+}
+
+.flight-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.47) 0px 5px 20px;
+
+}
+
+.flight-card h5 {
+    margin: 0;
+}
+
+.flight-card h3 {
+    margin: 0;
+}
+
+.flight-card p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.flight-card-part-4 {
+    border: 1px solid var(--text-color);
+    padding: 5px;
+}
+
+
+
+.flight-form-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    background-color: var(--nav-color);
+    padding: 1.5rem 0;
+
+
+}
+
+.flight-form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.flight-form-city {
+    padding: 0px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 8rem;
+    height: 2rem;
+}
+
+
+
+.flight-form-date {
+    padding: 0px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+}
+
+
+
+.flight-form-botton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 2rem;
+    background-color: #007bff;
+    color: white;
+    height: 2rem;
+}
+
+
+
+
+
+@media(max-width: 500px) {
+
+    .flight-card {
+        padding: 5px;
+    }
+
+    .flight-card h5 {
+        font-size: 8px;
+        margin: 0;
+    }
+
+    .flight-card h3 {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .flight-card p {
+        margin: 0;
+        font-size: 8px;
+    }
+
+}
+
+.flight-card-part-2 {
+    width: 4rem;
+}
+
+.flight-card-part-2 p {
+    text-align: center;
+}
+
+.flight-card-img {
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Flight Detail ki CSS *********************************** */
+@keyframes airplaneAnimation {
+    0% {
+        transform: translateX(0) translateY(0) rotate(0d);
+    }
+
+    25% {
+        transform: translateX(1rem) translateY(-1rem) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(2rem) translateY(0) rotate(10deg);
+    }
+
+    75% {
+        transform: translateX(1rem) translateY(1rem) rotate(0deg);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+
+
+}
+
+.flight-detail-containe {
+    overflow: hidden;
+}
+
+
+.flight-detail-container h1 {
+    text-align: center;
+
+}
+
+
+.flight-detail-card {
+    min-width: 15rem;
+    width: 80%;
+
+    background-color: var(--card-color);
+    margin: 2rem auto;
+    padding: 2rem 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.flight-detail-card p,
+h3 {
+    margin: 0;
+}
+
+.flight-detail-card-part-0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-detail-card-part-1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.flight-detail-card-part-22 {
+    width: 40%;
+    min-width: 4rem;
+}
+
+.flight-detail-card-part-22 p {
+    text-align: center;
+}
+
+.flight-detail-card-text {
+    min-width: 17rem;
+    width: 50%;
+}
+
+
+.flight-detail-card-img-section-img {
+    width: 21rem;
+    height: 10rem;
+    animation: airplaneAnimation 3s infinite ease;
+    padding: 1rem 20px;
+
+}
+
+@media(max-width : 800px) {
+    .flight-detail-card-img-section-img {
+        width: 10rem;
+        height: 5rem;
+        animation: airplaneAnimation 5s infinite ease;
+
+    }
+
+}
+
+.flight-detail-card-img {
+    min-width: 2rem;
+    min-height: 2rem;
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.flight-detail-card h2 {
+    margin: 0;
+
+}
+
+
+
+.flight-detail-card hr {
+
+    margin: 5px 0;
+}
+
+
+
+
+.flight-detail-btn {
+    margin-top: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Car Rentals Page ki CSS *********************************** */
+
+
+/* Default styles */
+.car-rent-section {
+    display: flex;
+    gap: 3rem 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 8%;
+    justify-content: center;
+}
+
+.car-rent-card {
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    overflow: hidden;
+}
+
+.car-rent-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.47) 0px 5px 20px;
+
+}
+
+.car-rent-card-img {
+    height: 9rem;
+    width: 15rem;
+}
+
+.car-rent-card h3 {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.car-rent-card p {
+    margin: 0px 10px;
+    font-size: 16px;
+}
+
+.car-rent-card-btn {
+    margin: 10px;
+}
+
+.car-rent-sevice-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 8%;
+}
+
+.car-rent-sevice-card p {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.car-rent-sevice-card {
+    min-width: 15rem;
+    width: 35%;
+    overflow: hidden;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+
+    .car-rent-sevice-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .car-rent-card {
+        padding: 8px;
+    }
+
+    .car-rent-sevice-card {
+        padding: 8px;
+    }
+}
+
+/* Car Details ki CSS *********************************** */
+
+.car-detail-card {
+    min-width: 15rem;
+    width: 50%;
+    background-color: var(--card-color);
+    margin: 20vh auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.car-detail-container h1 {
+    text-align: center;
+}
+
+
+.car-detail-img-section img {
+
+    width: 20rem;
+    height: 14rem;
+}
+
+@media(max-width:800px) {
+    .car-detail-img-section img {
+
+        width: 15rem;
+        height: 10rem;
+    }
+
+}
+
+.car-detail-text-section {
+
+    width: 15rem;
+}
+
+.car-detail-text-section h2 {
+    text-align: center;
+}
+
+
+/* Attraction Page ki CSS *********************************** */
+
+
+
+
+/* Default styles */
+.attraction-section {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.attraction-card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px 20px;
+    margin: 2rem 0;
+    background-color: var(--card-color);
+    box-shadow: 10px 8px 26px -9px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 10px 8px 26px -9px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 10px 8px 26px -9px rgba(0, 0, 0, 0.54);
+}
+
+.attraction-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.427) 0px 5px 20px;
+}
+
+.attraction-card-photo {
+    height: 20rem;
+    width: 30rem;
+}
+
+.attraction-card-text {
+    max-width: 30rem;
+    min-width: 19rem;
+
+}
+
+.attraction-card-text h1 {
+    text-align: center;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1200px) {
+    .attraction-card {
+        padding: 10px;
+        margin: 1rem auto;
+        width: 30rem;
+    }
+
+    .attraction-card-photo {
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .attraction-card-text {
+        max-width: 100%;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .attraction-card {
+        padding: 10px;
+        margin: 1rem auto;
+        width: 20rem;
+    }
+
+    .attraction-card-photo {
+        height: 12rem;
+        width: 19rem;
+    }
+
+    .attraction-card-text {
+        max-width: 100%;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .attraction-card {
+        gap: 10px;
+    }
+
+    .attraction-card {
+        padding: 8px;
+        margin: 1rem auto;
+        width: 18rem;
+    }
+
+    .attraction-card-photo {
+        height: 12rem;
+        width: 18rem;
+    }
+
+    .attraction-card-text {
+        max-width: 100%;
+        min-width: auto;
+    }
+}
+
+
+
+
+
+
+/* Contact Page ki CSS *********************************** */
+
+
+
+/* Contact.css */
+.contact-container {
+    width: 80%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: var(--card-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-container img {
+    height: 15rem;
+    width: 15rem;
+}
+
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container form p {
+    margin: 0;
+}
+
+.contact-container label {
+    margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    border-radius: 3px;
+}
+
+.contact-container button {
+    padding: 8px 15px;
+    background-color: var(--btn-bg);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+
+
+
+
+/* About Page ki CSS *********************************** */
+
+/* About.css */
+.about-container {
+    width: 80%;
+    max-width: 50rem;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2rem auto;
+    background-color: var(--card-color);
+    color: var(--text-color);
+}
+
+.about-title {
+    color: var(--text-color);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    margin-bottom: 20px;
+}
+
+.highlight-title {
+    color: var(--text-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.highlight-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.highlight-item {
+    color: var(--text-color);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+
+
+/* Components */
+
+
+/* Hero section ki CSS ***************************************** */
+
+.hero-section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+.hero-vid {
+
+    height: 100%;
+    width: 105%;
+
+
+
+}
+
+@media(max-width:800px) {
+    .hero-vid {
+
+        height: 100%;
+        width: 250%;
+
+
+
+    }
+
+}
+
+.hero-text-contaier {
+
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--hero-bg);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.hero-text {
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.hero-text h1 {
+    color: rgb(255, 255, 255);
+}
+
+.hero-text p {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* NavBar Section ki CSS ****************************** */
+
+
+.nav {
+    background-color: var(--nav-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    z-index: 50;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.3s;
+
+}
+
+.nav.hidden {
+    top: -50px;
+    /* Height of the navbar */
+}
+
+.content {
+    height: 2000px;
+    /* Just for demonstration purposes */
+}
+
+
+.logo-section {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo-section img {
+    height: 35px;
+    width: 35px;
+
+}
+
+.logo-text {
+    padding: 2px 0;
+}
+
+
+
+
+/* DarkModeSwitch.css */
+
+.dark-mode-container {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/* Drop */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 6px 1px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #acacac;
+}
+
+.dropdown-content {
+    font-size: 18px;
+    max-height: 0;
+    /* Initially hidden */
+    overflow: hidden;
+    /* Prevent content from overflowing */
+    transition: max-height 1s ease-out;
+    top: 3rem;
+    right: 0;
+    left: 0;
+    position: absolute;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+
+}
+
+.dropdown-content.open {
+    max-height: 40rem;
+    /* Adjust based on content */
+
+}
+
+.drop {
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background-color: var(--nav-color);
+    border: 1px solid #fff
+}
+
+.drop-link {
+    padding: 1rem 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.link-text {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.link-text::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    bottom: -0.3rem;
+    left: 0;
+    transition: width ease 0.1s;
+}
+
+
+.link-text:focus::after {
+    width: 5rem;
+}
+
+.active::after {
+    width: 5rem;
+}
+
+
+
+
+
+.links-section {
+
+    font-size: 18px;
+
+    display: flex;
+
+    align-items: center;
+    gap: 4px;
+}
+
+
+.links-text-btn {
+    margin-top: 10px;
+}
+
+@media (min-width: 1400px) {
+    .dropdown-button {
+        display: none;
+    }
+
+
+
+    .dropdown-content {
+        max-height: fit-content;
+        background-color: transparent;
+        display: block;
+        flex-direction: column;
+        position: static;
+        box-shadow: none;
+
+        top: 0;
+        right: 0;
+
+    }
+
+    .drop {
+        display: flex;
+        gap: 1.5rem;
+        padding: 7px;
+        border: none;
+
+    }
+
+    .drop-link {
+        width: max-content;
+        margin: 0px;
+        padding: 5px;
+
+
+    }
+
+
+
+    .dark-mode-container {
+        padding: 0;
+    }
+
+
+}
+
+
+
+
+
+
+/* PayMent Model Section ki CSS ****************** */
+
+
+
+/* FormComponent.css */
+.payment-model-form-container {
+
+    position: fixed;
+    background-color: var(--hero-bg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+    overflow-y: hidden;
+
+
+}
+
+
+
+
+
+.payment-model-form-card {
+    width: 13rem;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: var(--card-color);
+    position: relative;
+    z-index: 501;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+.payment-model-form-cross-btn {
+    border: transparent;
+    border-radius: 5px;
+    padding: 0 3px;
+    background-color: rgb(228, 82, 82);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+.payment-model-form-container h3 {
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px 0;
+    color: var(--text-color);
+}
+
+.payment-model-form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.payment-model-form-name {
+    width: 6.5rem;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+
+
+}
+
+.payment-model-form-email {
+    width: 8rem;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+.payment-model-form-password {
+    width: 6.8rem;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+.payment-model-form-date1 {
+    width: 6.3rem;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+.payment-model-form-date2 {
+    width: 7.2rem;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+
+/* HotelCard Section ki CSS */
+
+
+
+
+.c-ard {
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 20px;
+    background-color: var(--card-color);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.c-ard:hover {
+    box-shadow: rgba(0, 0, 0, 0.483) 0px 5px 25px;
+
+}
+
+
+
+
+.c-ard-photos img {
+    width: 100%;
+    height: 11rem;
+
+}
+
+.c-ard-text {
+    padding: 5px 15px;
+}
+
+
+
+.rating {
+    display: flex;
+    gap: 1px;
+    color: rgb(241, 209, 28);
+    font-size: 17px;
+    margin: 3px 0;
+}
+
+
+.c-ard-price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.map-icon {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+
+
+}
+
+.text1 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.text2 {
+    font-size: 12px;
+    margin: 0;
+
+}
+
+
+
+
+/* HotelDetail Section CSS ************************* */
+
+.hotel-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 2rem;
+    justify-content: center;
+}
+
+.hotel-details h1 {
+    text-align: center;
+}
+
+.hotel-details-image-container {
+    max-width: 43%;
+    width: 40rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--card-color);
+}
+
+
+
+.hotel-details-text-container {
+    max-width: 40%;
+    width: 40rem;
+    padding: 2rem 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--card-color);
+    color: var(--text-color);
+
+}
+
+@media(max-width : 1200px) {
+
+    .hotel-details-text-container,
+    .hotel-details-image-container {
+        max-width: 44rem;
+    }
+
+}
+
+
+
+.hotel-details-star {
+    display: flex;
+    gap: 4px;
+    color: rgb(239, 210, 45);
+    margin: 2px 0;
+}
+
+
+
+
+
+.hotel-details-price {
+
+    font-weight: 500;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+.hotel-details-map {
+    display: flex;
+    width: 84%;
+    height: 20rem;
+    margin: 2rem auto;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.hotel-details-card-cantainer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.hotel-details-card-body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 81%;
+    margin: 2rem 0;
+    background-color: var(--card-color);
+
+}
+
+.hotel-details-tem {
+    font-size: 70px;
+    margin: 10px 0;
+    font: bold;
+}
+
+.hotel-details-card-title {
+    font-size: 20px;
+    margin: 5px 0;
+
+
+}
+
+.hotel-details-card-text {
+    margin: 0 10px;
+    color: var(--color);
+}
+
+.hotel-details-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+
+}
+
+.hotel-details-card-body hr {
+    color: var(--color);
+
+}
+
+.hotel-details-info1 {
+    overflow: hidden;
+    padding: 10px;
+    width: 40%;
+    min-width: 12rem;
+}
+
+.hotel-details-info2 {
+    overflow: hidden;
+    padding: 10px;
+    width: 40%;
+    min-width: 12rem;
+}
+
+.hotel-details-a {
+    display: flex;
+    color: var(--text-color);
+
+
+}
+
+.hotel-details-a i {
+    margin: 10px;
+    color: var(--text-color);
+}
+
+
+.hotel-details-tab {
+
+    background-color: var(--card-color);
+    border-radius: 10px;
+    margin: 20px 65px;
+    width: 90%;
+    padding: 30px;
+
+}
+
+
+
+
+
+/* Hotel service section ki CSS ************************* */
+
+.hotel-service-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 3rem;
+
+
+}
+
+
+.hotel-service-heading h1 {
+    text-align: center;
+}
+
+.hotel-service-card {
+    background-color: var(--card-color);
+    padding: 20px;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 10px;
+    color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hotel-service-card-logo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+
+
+
+}
+
+.hotel-service-card-text {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+
+
+
+}
+
+
+
+/* customer-service-section Ki CSS ****************** */
+
+
+.customer-service-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin: 2rem;
+    gap: 5rem;
+    justify-content: center;
+
+
+}
+
+.customer-service-card {
+
+    background-color: var(--card-color);
+    color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+
+.customer-service-card img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.customer-service-card div {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Footer Section ki CSS **************************** */
+
+
+.footer {
+    background-color: var(--nav-color);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h1 {
+    color: rgb(255, 255, 255);
+}
+
+.footer h3 {
+    color: rgb(255, 255, 255);
+}
+
+.footer p {
+    color: rgb(255, 255, 255);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+    flex-basis: 100%;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-left {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #555;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-basis: 100%;
+}
+
+.footer-left h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+
+    text-align: center;
+    padding: 10px 0;
+    color: #aaa;
+    font-size: 14px;
+    flex-basis: 100%;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-content {
+        flex-wrap: nowrap;
+    }
+
+    .footer-logo,
+    .footer-social,
+    .footer-links,
+    .footer-left,
+    .footer-bottom {
+        flex-basis: auto;
+    }
+}
+
+
+/* Carousel-container ******************** */
+
+
+/* Hotel Carousel CSS */
+.hotel-carousel-container {
+    position: relative;
+    margin: 5rem;
+    margin: 0 auto;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.hotel-details-carousel-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 25rem;
+    overflow: hidden;
+}
+@media(max-width:900px) {
+    .hotel-details-carousel-container {
+   
+        height: 20rem;
+      
+    }
+    
+}
+
+@media(max-width:500px) {
+    .hotel-details-carousel-container {
+   
+        height: 13rem;
+      
+    }
+    
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.carousel-image.fade-out {
+    opacity: 0;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    padding: 8px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.prev-button {
+    left: 10px;
+    background-color: var(--card-color);
+}
+
+.next-button {
+    right: 10px;
+    background-color: var(--card-color);
+}
+
+
+
+
+/* Footer ************************* */
+
+.site-footer {
+    background-color: var(--nav-color);
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    max-width: 20rem;
+    margin: 0.5rem;
+    color: #737373
+}
+
+.row-1 p {
+    color: #737373
+}
+
+
+
+.row-2 p {
+    text-align: center;
+    color: #737373
+}
+
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: center
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+
+.social-icons li.title {
+    display: block;
+
+    font-weight: 600
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #f3f3f3;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #af3edc
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #b05923
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #918c31
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+
+
+
+/* Admin panel ************************ */
+
+.admin-panel-heading {
+    text-align: center;
+}
+
+.admin-panel-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+
+}
+
+.admin-panel-main-first {
+
+    background-color: var(--nav-color);
+    width: 10rem;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.admin-panel-main-first-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.admin-panel-main-first ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.admin-panel-main-first ul li {
+    padding: 5px 1px;
+    cursor: pointer;
+}
+
+.admin-panel-main-second {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid rgba(133, 133, 133, 0.498);
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    /* Prevent text from wrapping to the next line */
+    overflow: hidden;
+    /* Hide overflow text */
+
+}
+
+.table th {
+    background-color: var(--nav-color);
+    color: #fff;
+}
+
+.table td {
+    background-color: var(--card-color);
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Create Hotle Card for Admin Panel **********************/
+.admin-hotel-forms {
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.create-hotel-section {
+    min-width: 15rem;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    position: relative;
+    padding: 10px 15px;
+    margin: 2rem 1rem;
+}
+
+.create-hotel-section-update-heading {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.create-hotel-section input {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.create-hotel-section select {
+    border: 1px solid rgba(0, 0, 0, 0.495);
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+
+}
+
+.create-hotel-section-btn {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+/* Hotle Card for Admin Panel **********************/
+
+.admin-panel-hotel {
+    overflow-x: scroll;
+}
+
+.admin-panel-hotel-card {
+    width: 20rem;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    position: relative;
+}
+
+.admin-panel-hotel-photo-section {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2px;
+}
+
+.admin-panel-hotel-photo-section::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar */
+}
+
+
+.admin-panel-hotel-photo {
+    height: 8rem;
+    width: 12rem;
+    border: 1px solid black;
+}
+
+.admin-panel-hotel-card-btn-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.admin-panel-hotel-card-btn-section button {
+    margin: 10px 5px;
+}
